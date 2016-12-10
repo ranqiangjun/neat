@@ -1,6 +1,6 @@
 {
     "name": "jungle/neat",
-    "minimum-stability": "stable",
+    "license": "GPLv3",
     "authors": [
         {
             "name": "Qiangjun Ran",
@@ -14,5 +14,11 @@
         "psr-4" : {
             "Neat\\" : "src"
         }
-    }
+    },
+    "bin": ["bin/neat"],
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
