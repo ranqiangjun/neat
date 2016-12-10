@@ -1,0 +1,18 @@
+{
+    "name": "jungle/neat",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Qiangjun Ran",
+            "email": "jungle@ranqiangjun.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Neat\\" : "src"
+        }
+    }
+}
